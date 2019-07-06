@@ -1,0 +1,175 @@
+/*
+Brendon Busic
+Personal Project - Liar's Dice (CSS Styling Code)
+Start Date: 10/24/2017
+Finsih Date: 10/??/2017 - Beta 1.4
+*/
+html{
+	background-color: darkslategrey;
+	background-image: url("parchmentBackground.jpg");
+}
+body{
+	background-image: url("mapBackground.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 900px 700px;
+}
+p{
+	
+}
+#buttonMenu1, #buttonMenu2{
+	padding: 10px;
+}
+#topPort{
+	background-color: navajowhite;
+	background-image: url("woodBackground.jpg");
+	box-shadow: 0px 0px 25px black;
+	border-color: rgb(150,100,0);
+	
+	color: white;
+	height: 400px;
+	text-align:center;
+}
+img{
+	box-shadow: 0px 0px 75px antiquewhite inset;
+	background-image: url("diceBackground.jpg");
+	background-size: 960px 500px;
+	border-radius:11px;
+}
+table, select{
+	color:papayawhip;
+	background:none;
+	border-color: rgba(150,100,0, .3);
+}
+select{
+	text-align: center;
+	background-image: url("woodBackground.jpg");
+	box-shadow:0px 0px 10px rosybrown inset;
+	text-shadow:0px 0px 5px tan;
+	border: 2px solid;
+	border-color:rgb(150, 100, 0);
+	font-weight:bold;
+}
+#rowA{
+	background-color:rgba(190,75,0, .4);
+}
+#rowB{
+	box-shadow: 0px 0px 15px rgb(190,75,0) inset;
+}
+input[type=button]{
+	background-color:peru;
+	border-color: rgba(150,100,0, .9);
+	background-image: url("woodBackground.jpg");
+	text-shadow:0px 0px 5px tan;
+	font-size: 11pt;
+	
+	color:papayawhip;
+	box-shadow:0px 0px 5px black;
+}
+fieldset,table{
+	border-color: rgb(150,100,0);
+	color:papayawhip;
+}
+table{
+	border:collapse;
+	box-shadow:0px 0px 30px black;
+}
+#score{
+	background-color:rgba(190,75,0, .3);
+	box-shadow:0px 0px 50px rgb(175, 100, 0) inset;
+	box-shadow: 0px 0px 25px black;
+}
+option{
+	color:papayawhip;
+	background-color:saddlebrown;
+	text-shadow:0px 0px 5px tan;
+	font-weight: bold;
+}
+#gameVer, #CC, a{
+	color:white;
+	font-style:italic;
+	text-shadow: 0px 0px 4px black;
+}
+a:hover, select:hover{
+	font-weight:bold;
+	cursor: pointer;
+}
+#tablehead{
+	text-align:center;
+	box-shadow: 0px 0px 15px rgb(190,75,0) inset;
+}
+#infoButton:hover, #rules:hover{
+	cursor: help;
+}
+#message:hover, #gameVer:hover, #score:hover, #scoreTable:hover, #bidTable:hover, #note:hover{
+	cursor: default;
+}
+#dice{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	padding: 5px;
+	background-image: url("woodBackground.jpg");
+	width: 490px;
+	height: 160px;
+	border-style: ridge;
+	box-shadow: 0px 0px 25px black;
+	border-color: rgb(150,100,0);
+}
+#message{
+	padding: 5px;
+	text-align: center;
+	color: papayawhip;
+	text-shadow: 0px 0px 5px black;
+	font-size:12pt;
+	background-color: rgba(0,0,0, 0.1);
+	margin-left:-6px;
+	margin-right:-6px;
+	margin-top:-6px;
+}
+#changeLog{
+	font-size: 10pt;
+	font-style: none;
+	border-radius: 6px;
+	cursor: help;
+}
+#versionWindow-content{	
+	font-style: italic;
+}	
+#versionHistory{
+	font-style:italic;
+	font-size: 10pt;
+}
+.versionWindow-content{
+	font-style: normal;
+	max-height: 500px;
+	overflow: auto;
+}
+
+#contactInformation{
+	margin-top: -23px;
+	overflow: none;
+	display: block;
+	text-align: right;
+	margin-right: 30px;
+}
+#Twitter{
+	background-image: none;
+	box-shadow: none;
+	width: 50px;
+}
+#Twitter:hover{
+	cursor: pointer;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px dodgerblue;
+}
+#gitHub{
+	background-image: none;
+	box-shadow: none;
+	width: 45px;
+}
+#gitHub:hover{
+	cursor: pointer;
+	border-radius: 10;
+	box-shadow: 0px 0px 15px lime;
+}
