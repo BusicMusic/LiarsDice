@@ -1872,7 +1872,7 @@ function npcCallOut(){
 			window.location= "mailto:brendonbusic@gmail.com?subject=Regarding the Liar's Dice game...";
 	}
 	function TwitterProfile(){
-		window.open("https://twitter.com/scott_exe");
+		//Removed, Twitter is dead.
 	}
 	function gitHubProfile(){
 		window.open("https://github.com/BusicMusic");
